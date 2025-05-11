@@ -1,0 +1,368 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/*Global css*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+/*Header scetion*/
+.header-section{
+	background: url(../img/header-background.png);
+	background-size: cover;
+}
+.header-section .nav-item .nav-link{
+	color: #fff;
+}
+.header-section .nav-item .nav-link:hover{
+	color: #fed136;
+}
+.header-section img{
+    margin-left: 100px;
+}
+.header-section ul{
+	margin-right: 100px;
+}
+.header-section ul li{
+	padding: 5px 20px;
+}
+.header-section ul li a{
+   
+}
+
+
+/*Home section*/
+.home-section{
+	padding: 172px 0px;
+	background: url(../img/home-background.png);
+	background-size: cover;
+}
+.home-section h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 53px;
+    text-transform: capitalize;
+}
+.home-section h1{
+    text-align: center;
+    font-size: 70px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 22px;
+}
+.home-section button{
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    background: #fed136;
+    margin-top: 68px;
+    padding: 18px 50px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.home-section button:hover{
+	background: #E6EC20;
+	color: #000000;
+}
+
+
+/*Service section*/
+.service-section{
+   padding: 100px 0px;
+}
+.service-section .text h1{
+	text-align: center;
+	font-weight: 700;
+}
+.service-section .text p{
+	text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 90px;
+}
+.service-section .item{
+	text-align: center;
+}
+.service-section .item h3{
+	font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.service-section .item p{
+	font-family: 'Roboto', sans-serif;
+    padding: 10px 50px;
+    color: #777777;
+}
+
+
+/*Portfolio section*/
+.portfolio-section{
+	padding: 100px 0px;
+	background: #f7f7f7;
+}
+.portfolio-section h1{
+	text-align: center;
+	font-weight: 700;
+}
+.portfolio-section p{
+	text-align: center;
+	letter-spacing: 0px;
+    margin-bottom: 36px;
+    padding-bottom: 20px;
+}
+.portfolio-section .portfolio-item{
+	text-align: center;
+	background: #ffffff;
+    margin: 10px;
+}
+.portfolio-section .portfolio-item h3{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+.portfolio-section .portfolio-item p{
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+.portfolio-section .portfolio-item img{
+	width: 100%;
+}
+
+
+/*About section*/
+.about-section{
+    padding: 100px 0px;
+}
+.about-section h1{
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+}
+.about-section p{
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 90px;
+    color: #222;
+}
+.about-section .left .item{
+    text-align: right;
+}
+.about-section .left .item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-section .left .item span{
+    display: block;
+}
+.about-section .left .item p{
+    text-align: right;
+    padding-left: 65px;
+    margin-top: 15px;
+}
+.about-section .left img{
+    display: block;
+    margin: 0 auto;
+}
+.about-section .right img{
+    display: block;
+    margin: 0 auto;
+}
+.about-section .right .item{
+    text-align: left;
+}
+.about-section .right .item h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.about-section .right .item span{
+    display: block;
+}
+.about-section .right .item p{
+    text-align: left;
+    padding-right: 65px;
+    margin-top: 15px;
+}
+.about-section .about-last-img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Team section*/
+.team-section{
+    padding: 50px 0px;
+    background: #f9f9f9;
+}
+.team-section .team-item{
+    text-align: center;
+}
+.team-section h1{
+    text-align: center;
+    font-weight: 700;
+    color: #222;
+}
+.team-section p{
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 90px;
+    color: #222;
+}
+.team-section .team-item h3{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.team-section .team-item p{
+    margin-bottom: 0px;
+}
+.team-section .team-item ul{
+    margin-right: 30px;
+    margin-top: 25px;
+}
+.team-section .team-item ul li{
+    display: inline;
+    padding: 4px;
+} 
+.team-section .team-item ul li a{
+
+}
+.team-section .team-item ul li .fa-brands{
+    height: 37px;
+    font-size: 14px;
+    width: 37px;
+    background: black;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50;
+    color: #fff;
+    border-radius: 50%;
+}
+.team-section .bottom-text p{
+    margin-bottom: 0px;
+    padding: 35px 300px;
+}
+
+
+
+/*Contract us section*/
+.contract-section{
+    background: url(../img/contract-background.png);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.contract-section .text h1{
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+.contract-section .text p{
+    text-align: center;
+    letter-spacing: 0px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+.form input{
+    margin-bottom: 15px;
+    width: 75%;
+    padding: 10px 15px 10px;
+    float: right;
+}
+textarea.form-control{
+    width: 75%;
+    padding: 10px 15px 10px;
+}
+.contract-section button{
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    background: #fed136;
+    margin-top: 26px;
+    padding: 13px 50px;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.contract-section button:hover{
+    background: #E6EC20;
+    color: #000000;
+}
+
+/*Footer section*/
+.footer-section p{
+    margin-top: 32px;
+}
+.footer-section ul{
+    margin-left: 64px;
+    margin-top: 18px;
+}
+.footer-section ul li{
+    display: inline;
+    padding: 0px 6px;
+}
+.footer-section ul li a{
+    font-size: 35px;
+}
+.footer-section ul li .fa-brands{
+    height: 42px;
+    font-size: 14px;
+    font-size: 20px;
+    width: 42px;
+    background: black;
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50;
+    color: #fff;
+    border-radius: 50%;
+}
+.footer-section ul li a:hover{
+    color: #F97E6D;
+}
+
+
+/*Mobile device*/
+@media (min-width: 320px) and (max-width: 576px){
+    .header-section img {margin-left: 12px;}
+    .home-section h3 {font-size: 24px;}
+    .home-section {padding: 0px 0px; background-size: cover;}
+    .home-section h1 {font-size: 37px; margin-top: 40px;}
+    .home-section button {margin-top: 48px; padding: 10px 10px;font-size: 15px; margin-bottom: 40px;}
+    .service-section .item {text-align: center; margin-bottom: 50px;}
+    .service-section .item p {padding: 10px 20px;}
+    .service-section {padding: 100px 0px 70px;}
+    .portfolio-section p {text-align: center;letter-spacing: 0px;margin-bottom: 70px;padding-bottom: 20px;}
+    .portfolio-section{padding: 100px 0px 20px 0px;}
+    .form input {float: left; width: 90%;}
+    .contract-section .form{margin-left: 26px;}
+    textarea.form-control {width: 84%; padding: 10px 15px 10px;margin-left: 26px;}
+    .contract-section button{padding: 10px 14px; font-size: 14px; margin-top: 30px;}
+    .contract-section {padding: 80px 0px;}
+    .footer-section p {margin-top: 50px;text-align: center;}
+    .footer-section ul {margin-left: 41px;margin-top: 0px;margin-bottom: 10px;}
+    .about-section {padding: 70px 0px 100px;}
+    .about-section p{margin-bottom: 65px;}
+    .about-section .left .item{text-align: center;}
+    .about-section .left .item p {text-align: center;padding-left: 0px;padding: 0px 20px;margin-top: 18px; margin-bottom: 10px;}
+    .about-section .right .item p {text-align: center;padding-left: 0px;padding: 0px 20px;margin-top: 18px;}
+    .about-section .right .item{text-align: center;}
+    .about-section .right img {display: block;margin: 0 auto;margin-top: 110px;}
+    .about-section .left .item h3 {font-size: 20px;font-weight: 600;margin-top: 40px;}
+    .team-section .team-item {text-align: center;margin-bottom: 70px;}
+    .team-section .bottom-text p {margin-bottom: 0px; padding: 0px 0px;}
+    .footer-section ul{margin-left: 57px;}
+}
